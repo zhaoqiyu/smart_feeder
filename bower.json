@@ -1,0 +1,21 @@
+{
+  "name": "smart-feeder",
+  "description": "",
+  "main": "app.js",
+  "license": "MIT",
+  "homepage": "https://github.com/zhaoqiyu/smart_feeder",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
