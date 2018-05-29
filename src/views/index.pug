@@ -1,8 +1,8 @@
 extends layouts/_layout.pug
 
 block variables
-	- var activePage = 'dashboard'
-	- var activeGroup = 'none'
+	- var activePage = 'dashboard';
+	- var activeGroup = 'none';
 
 block content
 	.app-title
@@ -106,7 +106,7 @@ block content
 				p The source code is available on GitHub. If anything is missing or weird please report it as an issue on #[a(href="https://github.com/pratikborsadiya/vali-admin", target="_blank") GitHub]. If you want to contribute to this theme pull requests are always welcome.
 
 block specific-js
-	script(type='text/javascript', src="js/plugins/chart.js")
+	script(type='text/javascript', src="bower_components/chart.js/dist/Chart.js")
 	script(type='text/javascript').
 		var data = {
 			labels: ["January", "February", "March", "April", "May"],
