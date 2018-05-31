@@ -3,6 +3,7 @@ var device = {
 	name: 'Smart Feeder Prototype',
 	needToFeed: false,
 	lastSeen: 0,
+	amount: 0,
 	remainingFood: {},
 	update: function(food) {
 		//Update last_seen when receive signal from device

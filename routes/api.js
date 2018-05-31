@@ -26,7 +26,8 @@ router.get('/feed', function(req, res, next) {
     }else{
         device.needToFeed = true;
         device.amount = amount;
-        res.send("Feeding in progress");
+        console.log(device.amount);
+	res.send("Feeding in progress");
     }
 });
 
