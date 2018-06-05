@@ -1,4 +1,3 @@
-var Chart = require('chart.js');
 var settings = {
   "async": true,
   "crossDomain": true,
@@ -13,11 +12,6 @@ var settings = {
 
 $(document).ready(function() {
 	console.log('test');
-	document.getElementById('feedCatBtn').onclick = feedCatClick;
-	var ctx = document.getElementById("FoodChart").getContext("2d");
-	var myChart = new Chart(ctx, {
-		type: 'line',
-	})
 
 	function feedCatClick() {
 		var foodamount = document.getElementById('foodAmount').value;
